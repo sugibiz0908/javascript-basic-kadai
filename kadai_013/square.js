@@ -3,9 +3,10 @@
 const calculateTotal = (price) => {
   const result = price * 2;
    console.log(result);
+   return result;
 }
 const input = 50;
 const result = calculateTotal(input);
-console.log(result);
+
 
 
